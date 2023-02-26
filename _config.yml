@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Perform Mace
+url: "enigmaticmachines.github.io/performance"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Automated cloud based performance testing
 author:
   name:
   email:
