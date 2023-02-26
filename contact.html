@@ -11,7 +11,31 @@ map:
 ---
 <div class="map" id="map"></div>
 
+<form method="POST" action="https://gitletter.co/api/newsletter/clela66ta0005md0flllq0lum/subscribe">
+	<label for="email" style="margin-bottom: 16px;">Subscribe to our newsletter:</label>
+	<input type="email" name="email" id="email" placeholder="Your email address..." required />
+	<button>Subscribe</button>
+  </form>
 
+<form methos="POST" action="https://gitletter.co/api/newsletter/clela66ta0005md0flllq0lum/subscribe" class="contact-form">
+	<input type="hidden" name="_to" value="support@example.com" />
+	<input type="text" name="_gotcha" style="display: none;">
+
+	<label for="name">Full Name</label>
+	<input type="text" name="name" id="name" placeholder="Enter your name..." />
+
+	<label for="email">Email Address</label>
+	<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+
+	<label for="message">Message</label>
+	<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+
+	<input type="submit" value="Send Message" />
+</form>
+
+
+///// DELETE BEFORE
+  
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 		<input type="hidden" name="_to" value="support@example.com" />
